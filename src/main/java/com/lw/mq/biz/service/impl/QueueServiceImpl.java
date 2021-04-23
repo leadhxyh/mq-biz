@@ -54,4 +54,8 @@ public class QueueServiceImpl implements QueueService, TimerService {
     public void info() {
 
     }
+
+    private boolean checkChanged() {
+        return false;
+    }
 }
